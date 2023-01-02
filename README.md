@@ -1,14 +1,14 @@
 ##SOLAR source code Version 1.0
 
 ##Requirments
-# 1.anaconda
-# 2.Python 3.8.10
-# 3.torchvision 0.11.1
-# 4.h5py 3.7.0 based on hdf5 1.12.0
-# 5.cudatoolkit 11.3.1
-# 6.cupy-cuda114 10.0.0
-# 7.mpi4py 3.1.3
-# 8.openmpi 4.0.5
+1.anaconda
+2.Python 3.8.10
+3.torchvision 0.11.1
+4.h5py 3.7.0 based on hdf5 1.12.0
+5.cudatoolkit 11.3.1
+6.cupy-cuda114 10.0.0
+7.mpi4py 3.1.3
+8.openmpi 4.0.5
 
 ##STEP 1: Offline Scheduling
 #Generate the shuffled list first
