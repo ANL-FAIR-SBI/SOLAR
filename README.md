@@ -22,7 +22,7 @@
 ```
 
 ```sh
-    $ python3 ./utils/solar_shuffle.py --size 16 --nnodes 16 --epochs 100 --cache_size 160 --ntrain 87632 --save_path \${save_path}
+    $ python3 ./utils/solar_shuffle.py --size 16 --nnodes 16 --epochs 100 --cache_size 160 --ntrain 87632 --save_path ${save_path}
 ```
 
 ## STEP 2: Launch Training
@@ -47,6 +47,6 @@
 4. Run training code
 
 ```sh
-    $ mpirun -x LD_LIBRARY_PATH -x PATH -x PYTHONPATH -np 16 -npernode 4 --hostfile \${COBALT_NODEFILE} python3 ./PtychoNN/train.py --device gpu --ngpus 16 --batch_size 256 --cache_size 87632 --epochs 10 --nnodes 4 --gpu_pernode 4 --save_path \${save_path} --dtest_path /path/to/test/dataset/ --dtrain_path /path/to/training/dataset/h5 --root_path /path/to/save/models/and/logs
+    $ mpirun -x LD_LIBRARY_PATH -x PATH -x PYTHONPATH -np 16 -npernode 4 --hostfile ${COBALT_NODEFILE} python3 ./PtychoNN/train.py --device gpu --ngpus 16 --batch_size 256 --cache_size 87632 --epochs 10 --nnodes 4 --gpu_pernode 4 --save_path ${save_path} --dtest_path /path/to/test/dataset/ --dtrain_path /path/to/training/dataset/h5 --root_path /path/to/save/models/and/logs
 ```
 
