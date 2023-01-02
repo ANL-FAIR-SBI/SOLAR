@@ -2,14 +2,14 @@
 
 ## Requirments
 
-*1.anaconda
-*2.Python 3.8.10
-*3.torchvision 0.11.1
-*4.h5py 3.7.0 based on hdf5 1.12.0
-*5.cudatoolkit 11.3.1
-*6.cupy-cuda114 10.0.0
-*7.mpi4py 3.1.3
-*8.openmpi 4.0.5
+* 1.anaconda
+* 2.Python 3.8.10
+* 3.torchvision 0.11.1
+* 4.h5py 3.7.0 based on hdf5 1.12.0
+* 5.cudatoolkit 11.3.1
+* 6.cupy-cuda114 10.0.0
+* 7.mpi4py 3.1.3
+* 8.openmpi 4.0.5
 
 ## STEP 1: Offline Scheduling
 
@@ -30,13 +30,11 @@
 ### For example, running on a 4 node, 4 gpus per node case on thetagpu
 
 1. Setup anaconda environment
-2. 
 ```sh
     $ source /lus/theta-fs0/software/thetagpu/conda/2021-11-30/mconda3/setup.sh
 ```
 
 2. Activate conda environment (my_env is copied from base environment and install required packages using conda)
- 
 ```sh
     $ conda activate my_env
 ```
